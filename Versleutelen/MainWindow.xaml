@@ -1,0 +1,16 @@
+﻿<Window x:Class="Versleutelen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Versleutelen"
+        mc:Ignorable="d"
+        Title="Versleutelen / Encryption - Freek Heining" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="inputText" HorizontalAlignment="Left" Height="170" Margin="35,20,0,0" TextWrapping="Wrap" Text="Enter your text to encrypt..." VerticalAlignment="Top" Width="585" FontSize="16"/>
+        <Button x:Name="encrypt" Content="Encrypt" HorizontalAlignment="Left" Margin="657,20,0,0" VerticalAlignment="Top" Width="112" Click="encrypt_Click" Height="170" FontSize="16"/>
+        <Button x:Name="save" Content="Save" HorizontalAlignment="Left" Margin="657,225,0,0" VerticalAlignment="Top" Width="112" Click="save_Click" Height="167" FontSize="16"/>
+        <TextBox x:Name="encryptedText" HorizontalAlignment="Left" Height="167" Margin="35,225,0,0" TextWrapping="Wrap" Text="Encrypted text..." VerticalAlignment="Top" Width="585" FontSize="16"/>
+
+    </Grid>
+</Window>
